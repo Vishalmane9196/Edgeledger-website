@@ -107,3 +107,101 @@ font-weight: 500px;
 .hero * {
   z-index: 10;
 }
+
+/* Icons */
+.icons{
+  padding: 30px;
+}
+.icons h3 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.icons i {
+  background-color: #28a745;
+  color: #fff;
+  padding:1rem;
+  border-radius:50%;
+  margin-bottom:15px;
+}
+
+
+/* section header */
+
+.cases img:hover {
+   opacity:0.7;
+}
+
+.section-header{
+  padding:30px;
+  display :flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  text-align:center;
+}
+.section-header h2{
+  font-size:40px;
+  padding:20px 0;
+}
+.section-padding {
+  padding: 20px 20px 40px;
+}
+
+/* flex-grid */
+.flex-grid .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.flex-grid .row .column {
+  flex: 25%;
+  width: 25%;
+  padding: 0 4px;
+}
+
+
+/* Teams */
+
+.teams img {
+  border-radius :50%;
+
+}
+
+/* callback-form */
+
+.callback-form {
+  width : 100%;
+  padding: 20px 0;
+}
+
+.callback-form label {
+  display : block;
+  padding-bottom: 20px;
+}
+.callback-form .form-control {
+  margin-bottom: 20px;
+}
+
+.callback-form input {
+  width: 100%;
+  height: 40px;
+  padding:4px;
+  border: #f5f5f5 2px solid;
+}
+.callback-form .btn {
+  padding-top: 12px 0;
+}
+.callback-form :focus {
+  outline-color: #28a745;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+}
